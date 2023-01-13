@@ -1,6 +1,4 @@
-package Bank;
-
-import Inheritance.Challenge.Bank;
+package Classes.Challenge;
 
 public class ClassesChallenge {
     public static void main(String[] args) {

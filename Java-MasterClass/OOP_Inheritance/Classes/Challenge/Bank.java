@@ -1,4 +1,4 @@
-package Inheritance.Challenge;
+package Classes.Challenge;
 
 public class Bank {
     private int accountNumber;
