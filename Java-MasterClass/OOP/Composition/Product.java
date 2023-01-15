@@ -70,7 +70,6 @@ class ComputerCase extends Product {
 
     public void pressPowerButton() {
         System.out.println("Power button pressed");
-
     }
 }
 
