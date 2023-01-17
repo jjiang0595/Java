@@ -1,4 +1,4 @@
-package MinimumElementChallenge;
+package Minimum.Element.Challenge;
 
 import java.util.Arrays;
 import java.util.Scanner;
