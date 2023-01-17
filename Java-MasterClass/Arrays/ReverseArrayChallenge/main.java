@@ -1,4 +1,4 @@
-package Reverse.Array.Challenge;
+package ReverseArrayChallenge;
 
 import java.util.Arrays;
 
