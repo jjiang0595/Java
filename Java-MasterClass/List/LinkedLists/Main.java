@@ -22,7 +22,7 @@ public class Main {
 
         gettingElements(placesToVisit);
 
-        printItinerary(placesToVisit);
+        testIterator(placesToVisit);
     }
 
     public static void addMoreElements(LinkedList<String> list) {
@@ -116,5 +116,22 @@ public class Main {
         System.out.println("Trip ends at " + list.getLast());
     }
 
+    public static void testIterator(LinkedList<String> list) {
+
+        var iterator = list.listIterator();
+        while (iterator.hasNext()) {
+//            System.out.println(iterator.next());
+            if (iterator.next().equals("Brisbane")) {
+                iterator.add("Lake Wivenhoe");
+            }
+        }
+        while (iterator.hasPrevious()) {
+            System.out.println(iterator.previous());
+        }
+        System.out.println(list);
+
+        var iterator2 = list.listIterator(3);
+        System.out.println(iterator2.next());
+    }
 
 }
